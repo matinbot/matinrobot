@@ -224,9 +224,10 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "joke"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {176297946},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -327,34 +328,34 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-!kick [username|id]
+!kick [username|id] اخراج از گروه
 You can also do it by reply
 
-!ban [ username|id]
+!ban [ username|id] مسدود کردن از گروه
 You can also do it by reply
 
-!unban [id]
+!unban [id]در اوردن از مسدودی 
 You can also do it by reply
 
-!who
+!who لیست افراد گروه
 Members list
 
-!modlist
+!modlist لیست مدیران
 Moderators list
 
-!promote [username]
+!promote [username] مدیر کردن
 Promote someone
 
-!demote [username]
+!demote [username] در اوردن از مدیریت
 Demote someone
 
-!kickme
+!kickme اخراج خود
 Will kick user
 
-!about
+!about درباره
 Group description
 
-!setphoto
+!setphoto ست کردن عکس گروه
 Set and locks group photo
 
 !setname [name]
